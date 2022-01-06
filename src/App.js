@@ -39,7 +39,7 @@ function App() {
   });
   //Deletes the Logo drawing
   function deleteDiv() {
-    var elem = document.getElementById("lineDrawing");
+    var elem = document.getElementById("container");
     elem.parentNode.removeChild(elem);
   }
   //Delayed function that deletes the initial logo drawing
