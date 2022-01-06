@@ -1,20 +1,65 @@
+body {
+  background-color: #4f4f52;
+  height: 100%;
+  margin: 0;
+}
+
 .App {
   text-align: center;
-}
+  background-color: #4f4f52;
+  opacity: 0;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+  animation: fadein 3s;
+  animation-delay: 5s;
+  animation-fill-mode: forwards;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  -moz-animation: fadein 3s; /* Firefox */
+  -moz-animation-delay: 5s; /* Firefox */
+  -moz-animation-fill-mode: forwards;
+
+  -webkit-animation: fadein 3s; /* Safari and Chrome */
+  -webkit-animation-delay: 5s;
+  -webkit-animation-fill-mode: forwards;
+  
+  -o-animation: fadein 3s; /* Opera */
+  -o-animation-delay: 5s; /* Opera */
+  -o-animation-fill-mode: forwards;
+}
+@keyframes fadein {
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-moz-keyframes fadein { /* Firefox */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-o-keyframes fadein { /* Opera */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity: 1;
   }
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #4f4f52;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,15 +69,98 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.Name {
+  display: flex;
+  text-align: left;
+  justify-content: left;
+  width: 80%;
+  margin-left: 3vh;
+  font-size: calc(10px + 5vmin);
+  margin-bottom: -1vh;
+  padding-bottom: none;
+}
+.Bio {
+  display: flex;
+  align-self: left;
+  text-align: left;
+  justify-content: left;
+  width: 80%;
+  margin-left: 3vh;
+  margin-top: none;
+  padding-top: none;
+  font-size: calc(10px + 1vmin);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Projects {
+  display: flex;
+  text-align: left;
+  justify-content: left;
+  width: 80%;
+  margin-left: 3vh;
+  font-size: calc(10px + 5vmin);
+}
+
+a {
+  text-decoration: none;
+  color: #ffe100;
+}
+ 
+a:hover {
+  color: silver;
+}
+
+.rowC{display:flex; flex-direction:row;}
+
+.Footer {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-left: 3vh;
+  font-size: calc(10px + 0.5vmin);
+  padding-bottom: none;
+  color: gray;
+}
+
+.tech {
+  color:silver;
+  display:inline;
+}
+
+.fade-in-section {
+  width: 80%;
+  opacity: 0;
+  transform: translateY(20vh);
+  visibility: hidden;
+  transition: opacity 0.2s ease-out, transform 0.6s ease-out;
+  will-change: opacity, visibility;
+}
+
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+  display: flex; 
+}
+
+.my-path {
+  fill:none;
+  stroke:#ffe100;
+  stroke-width:4;
+  opacity:1;
+}
+
+.container {
+  position: absolute;
+  justify-content: center;
+  top:0%;
+  width: 100%;
+  height: 100%;
+}
+
+.lineDrawing {
+  line-height: 100vh;
+  width: 50vw;
+  height: 50vh;
+  padding-left: 37.5vw;
+  padding-top: 15vh;
 }

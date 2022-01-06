@@ -8,7 +8,7 @@
    version="1.1"
    id="svg8"
    inkscape:version="1.1.1 (c3084ef, 2021-09-22)"
-   sodipodi:docname="logoTest.svg"
+   sodipodi:docname="logoFinal.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -25,17 +25,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.49497475"
-     inkscape:cx="215.16249"
-     inkscape:cy="467.70063"
+     inkscape:zoom="0.8822296"
+     inkscape:cx="470.96583"
+     inkscape:cy="746.40433"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1512"
+     inkscape:window-width="1312"
      inkscape:window-height="839"
      inkscape:window-x="0"
      inkscape:window-y="136"
-     inkscape:window-maximized="1"
+     inkscape:window-maximized="0"
      inkscape:pagecheckerboard="true" />
   <metadata
      id="metadata5">
@@ -90,10 +90,10 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
     <path
-       style="fill:none;stroke:#ffff00;stroke-width:8.319;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 198.72747,151.65044 -16.80504,62.71727 h -45.75002 l 16.88787,-63.0264 45.85618,-0.0688 z"
+       style="fill:none;stroke:#ffff00;stroke-width:8.319;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;image-rendering:auto"
+       d="m 181.92243,214.36771 h -45.75002 l 16.88787,-63.0264 45.85618,-0.0688 c -5.81148,20.97049 -11.35802,42.06133 -16.99403,63.0952 z"
        id="path56"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccc" />
+       sodipodi:nodetypes="ccccc" />
   </g>
 </svg>
