@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.e65fe261.css",
-    "main.js": "/static/js/main.39e707e3.js",
+    "main.css": "/static/css/main.b1b6fb9b.css",
+    "main.js": "/static/js/main.27718e84.js",
     "static/js/787.9b9c0edf.chunk.js": "/static/js/787.9b9c0edf.chunk.js",
     "static/media/AlzCheckLogo.png": "/static/media/AlzCheckLogo.f85b9214e41424329cfa.png",
     "static/media/2DRayCastingLogo.jpg": "/static/media/2DRayCastingLogo.3cde03c25cca752bb0d0.jpg",
     "static/media/pathVisualizerLogo.jpg": "/static/media/pathVisualizerLogo.d4d870b019f88a1e59b6.jpg",
     "index.html": "/index.html",
     "static/media/devpost.svg": "/static/media/devpost.1e107ae4a2dfd4bb22e8db162c056e47.svg",
-    "main.e65fe261.css.map": "/static/css/main.e65fe261.css.map",
-    "main.39e707e3.js.map": "/static/js/main.39e707e3.js.map",
+    "main.b1b6fb9b.css.map": "/static/css/main.b1b6fb9b.css.map",
+    "main.27718e84.js.map": "/static/js/main.27718e84.js.map",
     "787.9b9c0edf.chunk.js.map": "/static/js/787.9b9c0edf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e65fe261.css",
-    "static/js/main.39e707e3.js"
+    "static/css/main.b1b6fb9b.css",
+    "static/js/main.27718e84.js"
   ]
 }
