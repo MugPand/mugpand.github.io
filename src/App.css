@@ -58,6 +58,10 @@ body {
   }
 }
 
+html{
+  scroll-behavior:smooth;
+}
+
 .App-header {
   background-color: #4f4f52;
   min-height: 100vh;
@@ -164,3 +168,8 @@ a:hover {
   padding-left: 37.5vw;
   padding-top: 15vh;
 }
+
+#test1 {
+  height: 5vh;
+}
+

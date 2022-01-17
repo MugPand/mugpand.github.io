@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CircleIcon from '@mui/icons-material/Circle';
@@ -27,9 +27,9 @@ export default function TerminalCard() {
                 <CardContent sx={{marginLeft: '2vw', marginTop:'-2vh', fontFamily:'Menlo', color:'silver'}}>% Currently Pursuing:</CardContent>
                 <CardContent sx={{marginLeft: '2vw', marginTop:'-2vh', fontFamily:'Menlo'}}>Software Engineering and AI/ML</CardContent>
                 <CardContent sx={{marginLeft: '2vw', marginTop:'-2vh', fontFamily:'Menlo', color:'silver'}}>% Programming Languages:</CardContent>
-                <CardContent sx={{marginLeft: '2vw', marginTop:'-2vh', fontFamily:'Menlo'}}>Python, C, Java, SQL, Javascript, HTML/CSS, React:</CardContent>
+                <CardContent sx={{marginLeft: '2vw', marginTop:'-2vh', fontFamily:'Menlo'}}>Python, C, Java, SQL, Javascript, HTML/CSS, React</CardContent>
                 <CardContent sx={{marginLeft: '2vw', marginTop:'-2vh', fontFamily:'Menlo', color:'silver'}}>% Technologies:</CardContent>
-                <CardContent sx={{marginLeft: '2vw', marginTop:'-2vh', fontFamily:'Menlo'}}>Git, Jupyter Notebook, MYSQL Workbench, Android Studio, IntelliJ IDEs, MS Visual Studio Code, Microsoft Suite, Google Suite</CardContent>
+                <CardContent sx={{marginLeft: '2vw', marginTop:'-2vh', fontFamily:'Menlo'}}>Git, Jupyter Notebook, MYSQL Workbench, Android Studio, IntelliJ IDEs, MS Visual Studio Code, Microsoft Office, Google Suite</CardContent>
                 <CardContent sx={{marginLeft: '2vw', marginTop:'-2vh', fontFamily:'Menlo', color:'silver'}}>% Coursework:</CardContent>
                 <CardContent sx={{marginLeft: '2vw', marginTop:'-2vh', fontFamily:'Menlo'}}>Data Structures & Algorithms, Analysis of Algorithms, Deep Learning, Software Methodology, Computer Architecture, Systems Programming, Databases, Discrete Structures, Linear Algebra, Statistics, Calculus I & II.</CardContent>
                 <CardContent sx={{marginLeft: '2vw', marginTop:'-2vh', fontFamily:'Menlo', color:'silver'}}>% Websites:</CardContent>
@@ -44,9 +44,12 @@ export default function TerminalCard() {
                 </a>
                 <a href="https://devpost.com/mugpand">
                     <Icon sx={{fontSize: 'calc(10px + 3vmin)', verticalAlign: '-0.5vh', marginRight: '0.5vw'}}>
-                    <img src={devpost}/>
+                    <img src={devpost} alt={"Devpost"}/>
                     </Icon>
-                    Devpost
+                    Devpost,
+                </a>
+                <a href="#projects">
+                    ⬇Projects
                 </a>
                 </CardContent>
             </Card>
