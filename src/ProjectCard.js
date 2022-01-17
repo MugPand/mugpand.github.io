@@ -1,15 +1,9 @@
 import React, { Component } from 'react';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
-import CircleIcon from '@mui/icons-material/Circle';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import { Icon } from "@material-ui/core";
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import { CardMedia } from '@mui/material';
 
 import portfolioTheme from "./PortfolioTheme.js"
-import { Box } from '@mui/system';
 
 import FadeInSection from './FadeInSection.js';
 
