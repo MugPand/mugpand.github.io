@@ -6,10 +6,6 @@ import anime from 'animejs';
 import TerminalCard from './TerminalCard';
 import ProjectCard from './ProjectCard'
 
-import pathVisualizerLogo from './pathVisualizerLogo.jpg';
-import rayCastingLogo from './2DRayCastingLogo.jpg';
-import alzCheckLogo from './AlzCheckLogo.png';
-import eqLogo from './eqLogo.png';
 
 import { data } from './data';
 
