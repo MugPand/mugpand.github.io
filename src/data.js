@@ -39,13 +39,13 @@ export const data = [
         "description": "Discord bot that pings twitter accounts to keep servers up to date with breaking headlines.",
         "link": "https://github.com/MugPand/HeadlinerBot",
         "technologies": "Python, Discord API, Twitter API",
-        "image": "Empty.png",
+        "image": "headliner.png",
     },
     {
         "title": "Pyshell",
         "description": "Unix Shell developed in Python.",
         "link": "https://github.com/MugPand/Pyshell",
         "technologies": "Python",
-        "image": "Empty.png",
+        "image": "pyshell.webp",
     },
 ];
