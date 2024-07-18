@@ -4,7 +4,7 @@ export const data = [
         "description": "A conversational A.I. built for Rutgers Course Planning.",
         "link": "https://github.com/MugPand/RutgersChatbot",
         "technologies": "Python, React, JavaScript, sklearn, NumPy, SQL, Pandas",
-        "image": "Empty.png",
+        "image": "rutgersLogo.svg",
     },
     {
         "title": "eq",
