@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.b1b6fb9b.css",
-    "main.js": "/static/js/main.233ba8be.js",
+    "main.js": "/static/js/main.8c2d03dc.js",
     "static/js/787.9b9c0edf.chunk.js": "/static/js/787.9b9c0edf.chunk.js",
+    "static/media/noisyCar.png": "/static/media/noisyCar.2bdf42bca0dc8e5fbcb2.png",
     "static/media/pyshell.webp": "/static/media/pyshell.828ee9ae906608c15f2c.webp",
     "static/media/AlzCheckLogo.png": "/static/media/AlzCheckLogo.f85b9214e41424329cfa.png",
     "static/media/2DRayCastingLogo.jpg": "/static/media/2DRayCastingLogo.3cde03c25cca752bb0d0.jpg",
@@ -13,11 +14,11 @@
     "static/media/rutgersLogo.svg": "/static/media/rutgersLogo.060aa931ae51c92c4195.svg",
     "static/media/devpost.svg": "/static/media/devpost.1e107ae4a2dfd4bb22e8db162c056e47.svg",
     "main.b1b6fb9b.css.map": "/static/css/main.b1b6fb9b.css.map",
-    "main.233ba8be.js.map": "/static/js/main.233ba8be.js.map",
+    "main.8c2d03dc.js.map": "/static/js/main.8c2d03dc.js.map",
     "787.9b9c0edf.chunk.js.map": "/static/js/787.9b9c0edf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b1b6fb9b.css",
-    "static/js/main.233ba8be.js"
+    "static/js/main.8c2d03dc.js"
   ]
 }
