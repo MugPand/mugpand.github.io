@@ -14,6 +14,13 @@ export const data = [
         "image": "eqLogo.png",
     },
     {
+        "title": "Car Brand Identification in Noisy Images using CNNs",
+        "description": "Developed an AutoEncoder & fine-tuned ResNet to identify make, model, and year of cars in noisy images that simulated real-world conditions.",
+        "link": "https://github.com/rohitamar/IdentifyingCarBrandsNoisyImagesCNN",
+        "technologies": "Python, PyTorch, NumPy, Pandas, ResNet",
+        "image": "noisyCar.png",
+    },
+    {
         "title": "Path Visualizer",
         "description": "Pygame based GUI application that allows users to draw mazes, i.e. mark cells as free or blocked, and run BFS or DFS on them to find paths between a start & end cell.",
         "link": "https://github.com/MugPand/Path-Visualizer",
