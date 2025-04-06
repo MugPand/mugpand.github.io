@@ -57,7 +57,7 @@ function App() {
         ))
         }
 
-        <h6 className="Footer">Designed & Developed by Mugdhesh Pandkar &copy; 2022-2025</h6>
+        <h6 className="Footer">Mugdhesh Pandkar &copy; 2022-2025</h6>
 
       </header>
 
