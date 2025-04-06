@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b1b6fb9b.css",
-    "main.js": "/static/js/main.9062ad22.js",
+    "main.js": "/static/js/main.233088a2.js",
     "static/js/787.9b9c0edf.chunk.js": "/static/js/787.9b9c0edf.chunk.js",
     "static/media/noisyCar.png": "/static/media/noisyCar.2bdf42bca0dc8e5fbcb2.png",
     "static/media/pyshell.webp": "/static/media/pyshell.828ee9ae906608c15f2c.webp",
@@ -14,11 +14,11 @@
     "static/media/rutgersLogo.svg": "/static/media/rutgersLogo.060aa931ae51c92c4195.svg",
     "static/media/devpost.svg": "/static/media/devpost.1e107ae4a2dfd4bb22e8db162c056e47.svg",
     "main.b1b6fb9b.css.map": "/static/css/main.b1b6fb9b.css.map",
-    "main.9062ad22.js.map": "/static/js/main.9062ad22.js.map",
+    "main.233088a2.js.map": "/static/js/main.233088a2.js.map",
     "787.9b9c0edf.chunk.js.map": "/static/js/787.9b9c0edf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b1b6fb9b.css",
-    "static/js/main.9062ad22.js"
+    "static/js/main.233088a2.js"
   ]
 }
