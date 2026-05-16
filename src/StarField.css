@@ -1,0 +1,125 @@
+.star-field {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+..star {
+  position: absolute;
+  color: #fff9e8;
+  font-weight: bold;
+  animation: shimmerGlow infinite ease-in-out;
+  will-change: color;
+  font-family: monospace;
+  letter-spacing: 1px;
+  opacity: 1;
+}
+
+@keyframes shimmerGlow {
+  0%, 100% {
+    color: #fff9e8;
+    text-shadow: 0 0 2px rgba(255, 240, 200, 0.35);
+  }
+  25% {
+    color: #fff1c8;
+    text-shadow: 0 0 4px rgba(255, 235, 170, 0.45);
+  }
+  50% {
+    color: #ffe7a0;
+    text-shadow: 0 0 6px rgba(255, 220, 140, 0.6);
+  }
+  75% {
+    color: #fff2ce;
+    text-shadow: 0 0 4px rgba(255, 230, 175, 0.45);
+  }
+}
+
+/* Subtle noise/static texture overlay */
+.star-field::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: 
+    repeating-linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.03),
+      rgba(255, 255, 255, 0.03) 1px,
+      transparent 1px,
+      transparent 2px
+    );
+  pointer-events: none;
+  animation: drift 20s linear infinite;
+  z-index: 1;
+}
+
+@keyframes drift {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(10px);
+  }
+}
+
+.star-field::after {
+  content: '';
+  position: absolute;
+  top: -10%;
+  left: -10%;
+  width: 120%;
+  height: 120%;
+  pointer-events: none;
+  background: radial-gradient(ellipse at 20% 20%, rgba(220, 220, 255, 0.10), transparent 20%),
+              radial-gradient(ellipse at 75% 25%, rgba(190, 200, 255, 0.08), transparent 20%),
+              radial-gradient(ellipse at 40% 70%, rgba(180, 190, 220, 0.09), transparent 24%),
+              radial-gradient(ellipse at 85% 80%, rgba(170, 180, 210, 0.06), transparent 24%),
+              radial-gradient(ellipse at 15% 80%, rgba(160, 170, 200, 0.05), transparent 20%);
+  filter: blur(32px);
+  opacity: 0.75;
+  z-index: 0;
+  animation: cloudShift 40s ease-in-out infinite;
+}
+
+@keyframes cloudShift {
+  0% {
+    transform: translate(0, 0) scale(1);
+  }
+  50% {
+    transform: translate(4%, -3%) scale(1.03);
+  }
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+}
+
+.cloud {
+  position: absolute;
+  color: rgba(232, 232, 236, 0.18);
+  font-family: monospace;
+  white-space: pre;
+  line-height: 0.85rem;
+  font-size: 0.78rem;
+  letter-spacing: 0.22rem;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.star {
+  position: absolute;
+  color: #fff9e8;
+  font-weight: bold;
+  animation: shimmerGlow infinite ease-in-out;
+  will-change: color;
+  font-family: monospace;
+  letter-spacing: 1px;
+  opacity: 1;
+  z-index: 1;
+}

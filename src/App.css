@@ -1,175 +1,89 @@
-body {
-  background-color: #4f4f52;
-  height: 100%;
-  margin: 0;
-}
-
 .App {
-  text-align: center;
-  background-color: #4f4f52;
-  opacity: 0;
-
-  animation: fadein 3s;
-  animation-delay: 5s;
-  animation-fill-mode: forwards;
-
-  -moz-animation: fadein 3s; /* Firefox */
-  -moz-animation-delay: 5s; /* Firefox */
-  -moz-animation-fill-mode: forwards;
-
-  -webkit-animation: fadein 3s; /* Safari and Chrome */
-  -webkit-animation-delay: 5s;
-  -webkit-animation-fill-mode: forwards;
-  
-  -o-animation: fadein 3s; /* Opera */
-  -o-animation-delay: 5s; /* Opera */
-  -o-animation-fill-mode: forwards;
-}
-@keyframes fadein {
-  from {
-      opacity:0;
-  }
-  to {
-      opacity:1;
-  }
-}
-@-moz-keyframes fadein { /* Firefox */
-  from {
-      opacity:0;
-  }
-  to {
-      opacity:1;
-  }
-}
-@-webkit-keyframes fadein { /* Safari and Chrome */
-  from {
-      opacity:0;
-  }
-  to {
-      opacity:1;
-  }
-}
-@-o-keyframes fadein { /* Opera */
-  from {
-      opacity:0;
-  }
-  to {
-      opacity: 1;
-  }
+  min-height: 100vh;
+  background: linear-gradient(
+    135deg,
+    #070707 0%,
+    #111111 45%,
+    #181818 100%
+  );
+  color: #e0e0ff;
+  position: relative;
+  overflow-x: hidden;
+  z-index: 1;
 }
 
-html{
-  scroll-behavior:smooth;
+.App-main {
+  position: relative;
+  z-index: 1;
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .App-header {
-  background-color: #4f4f52;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  margin-bottom: 60px;
+  animation: fadeIn 1s ease-in;
 }
 
 .Name {
-  display: flex;
-  text-align: left;
-  justify-content: left;
-  width: 80%;
-  margin-left: 3vh;
-  font-size: calc(10px + 5vmin);
-  margin-bottom: -1vh;
-  padding-bottom: none;
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin: 0 0 10px 0;
+  background: linear-gradient(
+    120deg,
+    #a0a0ff,
+    #7070ff,
+    #a0a0ff
+  );
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: gradientShift 8s linear infinite, fadeIn 1s ease-in;
+  letter-spacing: 2px;
 }
+
 .Bio {
-  display: flex;
-  align-self: left;
-  text-align: left;
-  justify-content: left;
-  width: 80%;
-  margin-left: 3vh;
-  margin-top: none;
-  padding-top: none;
-  font-size: calc(10px + 1vmin);
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: #9090d0;
+  margin: 10px 0 0 0;
+  letter-spacing: 0.5px;
+  animation: fadeIn 1.2s ease-in;
 }
 
-.Projects {
-  display: flex;
-  text-align: left;
-  justify-content: left;
-  width: 80%;
-  margin-left: 3vh;
-  font-size: calc(10px + 5vmin);
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
-a {
-  text-decoration: none;
-  color: #ffe100;
-}
- 
-a:hover {
-  color: silver;
-}
-
-.rowC{display:flex; flex-direction:row;}
-
-.Footer {
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  margin-left: 3vh;
-  font-size: calc(10px + 0.5vmin);
-  padding-bottom: none;
-  color: gray;
+@keyframes gradientShift {
+  0% {
+    background-position: 0% center;
+  }
+  100% {
+    background-position: 200% center;
+  }
 }
 
-.tech {
-  color:silver;
-  display:inline;
-}
+@media (max-width: 768px) {
+  .Name {
+    font-size: 2.5rem;
+  }
 
-.fade-in-section {
-  width: 80%;
-  opacity: 0;
-  transform: translateY(20vh);
-  visibility: hidden;
-  transition: opacity 0.2s ease-out, transform 0.6s ease-out;
-  will-change: opacity, visibility;
-}
+  .Bio {
+    font-size: 1rem;
+  }
 
-.fade-in-section.is-visible {
-  opacity: 1;
-  transform: none;
-  visibility: visible;
-  display: flex; 
-}
-
-.my-path {
-  fill:none;
-  stroke:#ffe100;
-  stroke-width:4;
-  opacity:1;
-}
-
-.container {
-  position: absolute;
-  justify-content: center;
-  top:0%;
-  width: 100%;
-  height: 100%;
-}
-
-.lineDrawing {
-  line-height: 100vh;
-  width: 50vw;
-  height: 50vh;
-  padding-left: 37.5vw;
-  padding-top: 15vh;
-}
-
-#test1 {
-  height: 5vh;
+  .App-main {
+    padding: 40px 20px;
+  }
 }
 
